@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.set_page_config(
-    page_title="Projexions — Workflow Automation Demos",
-    page_icon="📊",
-    layout="wide",
-)
-
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
