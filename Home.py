@@ -27,16 +27,6 @@ h1, h2, h3 {
     border-color: #2d5240 !important;
 }
 
-/* Stretch column blocks so cards fill equal height */
-[data-testid="stColumns"] > div {
-    display: flex;
-    flex-direction: column;
-}
-[data-testid="stColumns"] > div > [data-testid="stVerticalBlock"] {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
 
 .product-card {
     background: #fff;
@@ -45,9 +35,7 @@ h1, h2, h3 {
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-left: 4px solid #1B3A2F;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    min-height: 230px;
 }
 .product-card h3 {
     font-family: 'Source Serif 4', serif;
@@ -63,9 +51,6 @@ h1, h2, h3 {
     padding: 2px 10px;
     border-radius: 12px;
     margin-bottom: 0.5rem;
-}
-.product-card .card-body {
-    flex: 1;
 }
 </style>
 """, unsafe_allow_html=True)
