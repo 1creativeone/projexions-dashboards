@@ -1,0 +1,91 @@
+exception_id,customer_id,transaction_id,detected_date,exception_type,severity,status,owner,days_open,resolution_notes
+700001,1015,501179,2026-01-08,refund_dispute,low,open,Finance,3,Refund timing dispute pending customer review.
+700002,1010,500866,2025-11-19,fee_mismatch,medium,open,Ops Team,25,Fee variance exceeded reconciliation threshold.
+700003,1012,500102,2025-03-02,duplicate_charge,medium,in_review,Customer Support,40,Potential duplicate transaction detected.
+700004,1002,500440,2026-01-02,late_review,medium,resolved,Finance,0,Manual review backlog exceeded SLA.
+700005,1001,500059,2025-10-11,duplicate_charge,medium,closed,Finance,11,Potential duplicate transaction detected.
+700006,1023,501121,2025-11-12,fee_mismatch,medium,resolved,Ops Team,4,Fee variance exceeded reconciliation threshold.
+700007,1004,500324,2025-12-18,duplicate_charge,low,resolved,Finance,2,Potential duplicate transaction detected.
+700008,1001,500975,2025-01-26,late_review,low,resolved,Customer Support,5,Manual review backlog exceeded SLA.
+700009,1027,500412,2025-04-16,invoice_missing,low,open,Finance,16,Invoice reference missing from ERP sync.
+700010,1003,500856,2025-01-18,missing_payout,medium,open,Customer Support,21,Awaiting payout confirmation from processor.
+700011,1018,500821,2025-12-20,invoice_missing,medium,resolved,Risk,0,Invoice reference missing from ERP sync.
+700012,1004,500045,2025-01-11,missing_payout,low,resolved,Ops Team,2,Awaiting payout confirmation from processor.
+700013,1003,500050,2025-03-10,refund_dispute,low,resolved,Finance,13,Refund timing dispute pending customer review.
+700014,1011,500850,2025-03-08,invoice_missing,low,closed,Customer Support,0,Invoice reference missing from ERP sync.
+700015,1027,500241,2025-07-09,refund_dispute,medium,closed,Customer Support,10,Refund timing dispute pending customer review.
+700016,1013,500171,2025-10-06,fee_mismatch,medium,resolved,Risk,11,Fee variance exceeded reconciliation threshold.
+700017,1020,500524,2025-06-11,refund_dispute,high,closed,Finance,10,Refund timing dispute pending customer review.
+700018,1010,500766,2025-04-02,duplicate_charge,low,resolved,Finance,14,Potential duplicate transaction detected.
+700019,1011,500839,2025-03-24,duplicate_charge,medium,closed,Ops Team,6,Potential duplicate transaction detected.
+700020,1008,500424,2025-09-27,fee_mismatch,medium,resolved,Automation Queue,4,Fee variance exceeded reconciliation threshold.
+700021,1002,500381,2025-03-22,fee_mismatch,low,closed,Customer Support,6,Fee variance exceeded reconciliation threshold.
+700022,1013,500610,2025-10-15,refund_dispute,medium,resolved,Customer Support,6,Refund timing dispute pending customer review.
+700023,1002,500677,2026-01-05,duplicate_charge,low,resolved,Automation Queue,5,Potential duplicate transaction detected.
+700024,1006,500345,2025-10-10,late_review,medium,in_review,Automation Queue,14,Manual review backlog exceeded SLA.
+700025,1002,500110,2025-10-21,invoice_missing,medium,resolved,Risk,7,Invoice reference missing from ERP sync.
+700026,1012,500278,2025-02-09,refund_dispute,medium,in_review,Customer Support,10,Refund timing dispute pending customer review.
+700027,1006,500678,2025-10-26,invoice_missing,low,resolved,Finance,13,Invoice reference missing from ERP sync.
+700028,1009,500571,2025-02-04,fee_mismatch,high,resolved,Customer Support,14,Fee variance exceeded reconciliation threshold.
+700029,1027,500359,2025-03-14,missing_payout,medium,in_review,Finance,29,Awaiting payout confirmation from processor.
+700030,1003,500599,2025-05-31,invoice_missing,medium,in_review,Automation Queue,44,Invoice reference missing from ERP sync.
+700031,1030,500391,2025-04-23,fee_mismatch,low,closed,Finance,3,Fee variance exceeded reconciliation threshold.
+700032,1006,500894,2025-10-26,refund_dispute,medium,closed,Automation Queue,2,Refund timing dispute pending customer review.
+700033,1009,500693,2025-05-26,missing_payout,medium,resolved,Ops Team,10,Awaiting payout confirmation from processor.
+700034,1017,500728,2025-07-17,duplicate_charge,low,open,Risk,4,Potential duplicate transaction detected.
+700035,1007,500363,2025-09-26,fee_mismatch,high,in_review,Risk,10,Fee variance exceeded reconciliation threshold.
+700036,1013,500597,2025-11-06,invoice_missing,medium,resolved,Finance,5,Invoice reference missing from ERP sync.
+700037,1023,500428,2025-02-12,invoice_missing,high,in_review,Finance,7,Invoice reference missing from ERP sync.
+700038,1016,500071,2025-06-06,invoice_missing,medium,in_review,Automation Queue,8,Invoice reference missing from ERP sync.
+700039,1014,500322,2025-08-07,late_review,medium,resolved,Finance,7,Manual review backlog exceeded SLA.
+700040,1011,500653,2025-05-09,fee_mismatch,low,closed,Ops Team,10,Fee variance exceeded reconciliation threshold.
+700041,1015,501066,2025-02-19,refund_dispute,medium,open,Ops Team,25,Refund timing dispute pending customer review.
+700042,1015,500108,2025-11-28,duplicate_charge,medium,resolved,Finance,13,Potential duplicate transaction detected.
+700043,1014,501109,2025-04-14,refund_dispute,low,resolved,Risk,0,Refund timing dispute pending customer review.
+700044,1012,500356,2025-10-11,duplicate_charge,low,closed,Automation Queue,14,Potential duplicate transaction detected.
+700045,1011,500951,2025-01-24,fee_mismatch,high,resolved,Finance,6,Fee variance exceeded reconciliation threshold.
+700046,1003,500343,2025-03-10,duplicate_charge,medium,closed,Customer Support,5,Potential duplicate transaction detected.
+700047,1001,500355,2025-04-22,refund_dispute,medium,open,Risk,38,Refund timing dispute pending customer review.
+700048,1005,500024,2025-01-27,invoice_missing,medium,in_review,Finance,18,Invoice reference missing from ERP sync.
+700049,1025,500044,2025-06-09,late_review,low,open,Customer Support,16,Manual review backlog exceeded SLA.
+700050,1005,500244,2025-07-28,late_review,medium,resolved,Risk,4,Manual review backlog exceeded SLA.
+700051,1019,500738,2025-06-26,invoice_missing,medium,resolved,Ops Team,2,Invoice reference missing from ERP sync.
+700052,1001,501136,2025-12-16,refund_dispute,medium,resolved,Risk,3,Refund timing dispute pending customer review.
+700053,1024,500368,2025-03-27,duplicate_charge,high,resolved,Customer Support,5,Potential duplicate transaction detected.
+700054,1009,500164,2025-01-11,fee_mismatch,medium,resolved,Automation Queue,5,Fee variance exceeded reconciliation threshold.
+700055,1011,501116,2025-02-10,duplicate_charge,high,in_review,Ops Team,19,Potential duplicate transaction detected.
+700056,1001,500333,2025-10-20,duplicate_charge,high,closed,Ops Team,14,Potential duplicate transaction detected.
+700057,1004,500989,2025-12-07,missing_payout,low,closed,Risk,12,Awaiting payout confirmation from processor.
+700058,1012,501173,2025-08-11,fee_mismatch,high,open,Ops Team,37,Fee variance exceeded reconciliation threshold.
+700059,1010,501002,2025-03-24,duplicate_charge,low,closed,Automation Queue,11,Potential duplicate transaction detected.
+700060,1001,500378,2025-10-23,refund_dispute,medium,resolved,Ops Team,13,Refund timing dispute pending customer review.
+700061,1004,500310,2025-03-11,late_review,low,resolved,Ops Team,0,Manual review backlog exceeded SLA.
+700062,1004,500156,2025-06-17,missing_payout,medium,in_review,Finance,6,Awaiting payout confirmation from processor.
+700063,1010,500211,2025-03-03,refund_dispute,medium,in_review,Finance,6,Refund timing dispute pending customer review.
+700064,1014,500087,2025-09-24,late_review,medium,resolved,Finance,3,Manual review backlog exceeded SLA.
+700065,1001,500169,2025-12-04,late_review,high,resolved,Ops Team,11,Manual review backlog exceeded SLA.
+700066,1005,500995,2025-03-08,missing_payout,low,resolved,Finance,8,Awaiting payout confirmation from processor.
+700067,1016,500052,2025-11-10,invoice_missing,medium,in_review,Ops Team,35,Invoice reference missing from ERP sync.
+700068,1014,500439,2025-06-01,fee_mismatch,medium,in_review,Automation Queue,21,Fee variance exceeded reconciliation threshold.
+700069,1016,500550,2025-06-19,invoice_missing,low,in_review,Risk,27,Invoice reference missing from ERP sync.
+700070,1007,500491,2025-10-09,fee_mismatch,low,closed,Risk,11,Fee variance exceeded reconciliation threshold.
+700071,1010,500426,2025-01-27,missing_payout,low,in_review,Risk,11,Awaiting payout confirmation from processor.
+700072,1005,500136,2025-04-20,invoice_missing,low,closed,Customer Support,0,Invoice reference missing from ERP sync.
+700073,1011,501192,2025-11-03,missing_payout,medium,open,Risk,44,Awaiting payout confirmation from processor.
+700074,1011,500055,2025-08-23,late_review,medium,resolved,Risk,9,Manual review backlog exceeded SLA.
+700075,1005,500079,2025-05-30,refund_dispute,medium,resolved,Customer Support,11,Refund timing dispute pending customer review.
+700076,1002,500431,2025-08-04,fee_mismatch,medium,resolved,Ops Team,11,Fee variance exceeded reconciliation threshold.
+700077,1004,500185,2025-06-13,refund_dispute,low,resolved,Customer Support,6,Refund timing dispute pending customer review.
+700078,1002,500057,2025-03-12,refund_dispute,low,resolved,Customer Support,14,Refund timing dispute pending customer review.
+700079,1012,500943,2025-11-20,fee_mismatch,medium,resolved,Finance,0,Fee variance exceeded reconciliation threshold.
+700080,1001,500851,2025-09-07,refund_dispute,low,resolved,Finance,0,Refund timing dispute pending customer review.
+700081,1015,501164,2025-08-25,refund_dispute,low,in_review,Risk,2,Refund timing dispute pending customer review.
+700082,1012,500219,2025-12-14,refund_dispute,low,in_review,Automation Queue,32,Refund timing dispute pending customer review.
+700083,1002,500845,2025-03-04,refund_dispute,medium,in_review,Customer Support,13,Refund timing dispute pending customer review.
+700084,1018,500114,2025-08-24,fee_mismatch,high,resolved,Ops Team,13,Fee variance exceeded reconciliation threshold.
+700085,1009,500549,2025-10-21,missing_payout,medium,resolved,Automation Queue,1,Awaiting payout confirmation from processor.
+700086,1025,501019,2025-02-17,invoice_missing,high,in_review,Customer Support,16,Invoice reference missing from ERP sync.
+700087,1001,501073,2025-09-29,late_review,low,resolved,Risk,4,Manual review backlog exceeded SLA.
+700088,1012,500175,2025-07-13,invoice_missing,medium,resolved,Automation Queue,6,Invoice reference missing from ERP sync.
+700089,1026,501023,2025-10-19,late_review,medium,in_review,Customer Support,24,Manual review backlog exceeded SLA.
+700090,1025,500616,2025-11-26,duplicate_charge,low,open,Risk,29,Potential duplicate transaction detected.
