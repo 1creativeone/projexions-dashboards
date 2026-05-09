@@ -27,15 +27,15 @@ h1, h2, h3 {
     border-color: #2d5240 !important;
 }
 
-
 .product-card {
     background: #fff;
     border: 1px solid #d4c9b0;
     border-radius: 8px;
     padding: 1.5rem;
-    margin-bottom: 1rem;
     border-left: 4px solid #1B3A2F;
-    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
 }
 .product-card h3 {
     font-family: 'Source Serif 4', serif;
@@ -51,6 +51,30 @@ h1, h2, h3 {
     padding: 2px 10px;
     border-radius: 12px;
     margin-bottom: 0.5rem;
+}
+.card-body {
+    flex: 1;
+}
+.card-body p {
+    margin: 0 0 0.5rem 0;
+}
+.card-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #1B3A2F;
+    color: #ffffff !important;
+    padding: 0.45rem 1rem;
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    margin-top: 1.25rem;
+}
+.card-btn:hover {
+    background-color: #2d5240;
+    color: #ffffff !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -78,10 +102,9 @@ with col1:
 <p>Monthly KPIs, revenue trends, fee breakdowns, and MoM growth — assembled automatically from raw transaction exports.</p>
 <p><strong>Best for:</strong> Businesses that spend hours assembling the same monthly report from spreadsheets and accounting exports.</p>
 </div>
+<a class="card-btn" href="/Reporting_Automation">Open Reporting Demo →</a>
 </div>
 """, unsafe_allow_html=True)
-    if st.button("Open Reporting Demo →", use_container_width=True):
-        st.switch_page("pages/1_Reporting.py")
 
 with col2:
     st.markdown("""
@@ -92,10 +115,9 @@ with col2:
 <p>Flags unmatched payouts, disputed transactions, and fee mismatches before they become a problem.</p>
 <p><strong>Best for:</strong> Ecommerce and service businesses with high transaction volume and lots of payout noise.</p>
 </div>
+<a class="card-btn" href="/Reconciliation_Workflow">Open Reconciliation Demo →</a>
 </div>
 """, unsafe_allow_html=True)
-    if st.button("Open Reconciliation Demo →", use_container_width=True):
-        st.switch_page("pages/2_Reconciliation.py")
 
 with col3:
     st.markdown("""
@@ -106,10 +128,9 @@ with col3:
 <p>Exception aging, owner workload, customer risk concentration, and backlog health — all in one view.</p>
 <p><strong>Best for:</strong> Ops teams and agencies that know something is inefficient but can't see where the friction is.</p>
 </div>
+<a class="card-btn" href="/Operations_Visibility">Open Operations Demo →</a>
 </div>
 """, unsafe_allow_html=True)
-    if st.button("Open Operations Demo →", use_container_width=True):
-        st.switch_page("pages/3_Operations.py")
 
 st.markdown("---")
 st.markdown("""

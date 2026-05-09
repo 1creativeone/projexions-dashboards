@@ -7,9 +7,9 @@ st.set_page_config(
 )
 
 pg = st.navigation([
-    st.Page("Home.py", title="Home", icon="🏠"),
-    st.Page("pages/1_Reporting.py", title="Reporting Automation", icon="📈"),
-    st.Page("pages/2_Reconciliation.py", title="Reconciliation Workflow", icon="🔍"),
-    st.Page("pages/3_Operations.py", title="Operations Visibility", icon="🏗️"),
+    st.Page("Home.py", title="Home", icon="🏠", url_path=""),
+    st.Page("pages/1_Reporting.py", title="Reporting Automation", icon="📈", url_path="Reporting_Automation"),
+    st.Page("pages/2_Reconciliation.py", title="Reconciliation Workflow", icon="🔍", url_path="Reconciliation_Workflow"),
+    st.Page("pages/3_Operations.py", title="Operations Visibility", icon="🏗️", url_path="Operations_Visibility"),
 ])
 pg.run()
