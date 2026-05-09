@@ -33,6 +33,17 @@ h1, h2, h3 {
     border-color: #2d5240 !important;
 }
 
+/* Stretch column blocks so cards fill equal height */
+[data-testid="stColumns"] > div {
+    display: flex;
+    flex-direction: column;
+}
+[data-testid="stColumns"] > div > [data-testid="stVerticalBlock"] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .product-card {
     background: #fff;
     border: 1px solid #d4c9b0;
@@ -40,6 +51,9 @@ h1, h2, h3 {
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-left: 4px solid #1B3A2F;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .product-card h3 {
     font-family: 'Source Serif 4', serif;
@@ -56,15 +70,8 @@ h1, h2, h3 {
     border-radius: 12px;
     margin-bottom: 0.5rem;
 }
-.amber-tag {
-    background: #d97706;
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 2px 10px;
-    border-radius: 12px;
-    display: inline-block;
-    margin-left: 0.5rem;
+.product-card .card-body {
+    flex: 1;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -88,8 +95,10 @@ with col1:
 <div class="product-card">
 <span class="tag">Product 1</span>
 <h3>Reporting Automation</h3>
+<div class="card-body">
 <p>Monthly KPIs, revenue trends, fee breakdowns, and MoM growth — assembled automatically from raw transaction exports.</p>
-<p><strong>Best for:</strong> Businesses that spend hours building the same monthly report every month.</p>
+<p><strong>Best for:</strong> Businesses that spend hours assembling the same monthly report from spreadsheets and accounting exports.</p>
+</div>
 </div>
 """, unsafe_allow_html=True)
     if st.button("Open Reporting Demo →", use_container_width=True):
@@ -100,8 +109,10 @@ with col2:
 <div class="product-card">
 <span class="tag">Product 2</span>
 <h3>Reconciliation Workflow</h3>
+<div class="card-body">
 <p>Flags unmatched payouts, disputed transactions, and fee mismatches before they become a problem.</p>
-<p><strong>Best for:</strong> Ecommerce and service businesses with high transaction volume and payout noise.</p>
+<p><strong>Best for:</strong> Ecommerce and service businesses with high transaction volume and lots of payout noise.</p>
+</div>
 </div>
 """, unsafe_allow_html=True)
     if st.button("Open Reconciliation Demo →", use_container_width=True):
@@ -112,8 +123,10 @@ with col3:
 <div class="product-card">
 <span class="tag">Product 3</span>
 <h3>Operations Visibility</h3>
+<div class="card-body">
 <p>Exception aging, owner workload, customer risk concentration, and backlog health — all in one view.</p>
-<p><strong>Best for:</strong> Ops teams and agencies that know something is inefficient but can't see where.</p>
+<p><strong>Best for:</strong> Ops teams and agencies that know something is inefficient but can't see where the friction is.</p>
+</div>
 </div>
 """, unsafe_allow_html=True)
     if st.button("Open Operations Demo →", use_container_width=True):
